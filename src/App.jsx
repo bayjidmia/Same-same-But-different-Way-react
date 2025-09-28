@@ -1,9 +1,11 @@
 import "./App.css";
+import Navbar from "./component/navbar/navbar";
 
 function App() {
   return (
     <>
-      {/* 1 st way to show navber */}
+      <Navbar></Navbar>
+      {/* 1 st way to show navber
       <nav>
         <ul className="flex">
           <li className="mr-10">
@@ -19,7 +21,7 @@ function App() {
             <a href="">Learn</a>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </>
   );
 }
