@@ -3,6 +3,7 @@ import "./App.css";
 function App() {
   return (
     <>
+      {/* 1 st way to show navber */}
       <nav>
         <ul className="flex">
           <li className="mr-10">
